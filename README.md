@@ -16,7 +16,7 @@ GitHub Pages（启用后填这里）：`https://<你的用户名>.github.io/kagu
 
 | 安装包 | 版本 | 内径 | 带宽 | 说明 |
 | --- | --- | --- | --- | --- |
-| [`bangle-movie-66.zip`](../../releases/latest/download/bangle-movie-66.zip) | 剧场版 | 66 mm | 7 mm | 推荐首次制作，作者自用尺寸（6 MB） |
+| [`bangle-movie-66.zip`](../../releases/latest/download/bangle-movie-66.zip) | 剧场版 | 66 mm | 7 mm | 作者自用尺寸（6 MB） |
 | [`bangle-artbook-66.zip`](../../releases/latest/download/bangle-artbook-66.zip) | 设定集版 | 66 mm | 5 mm | 更窄更轻，线条更收（8 MB） |
 | [`bangle-movie-74.zip`](../../releases/latest/download/bangle-movie-74.zip) | 剧场版 | 74 mm | 7 mm | 手更大的人，开口 5.5 mm（10 MB） |
 | [`bangle-artbook-74.zip`](../../releases/latest/download/bangle-artbook-74.zip) | 设定集版 | 74 mm | 5 mm | 开口收窄到 3.5 mm，穿脱余量更小（13 MB） |
