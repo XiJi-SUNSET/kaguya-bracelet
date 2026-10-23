@@ -1,0 +1,12 @@
+# 模型与源文件：走 GitHub Releases，不进仓库
+*.stl
+*.blend
+*.zip
+
+# 动画截图 / 设定集参考：版权归原作者，不公开
+原图参考/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
