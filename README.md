@@ -31,9 +31,11 @@ https://xiji-sunset.github.io/kaguya-bracelet/
 
 ## 作者
 
-**大肥鱼** · **渺**
+[@XiJi-SUNSET](https://github.com/XiJi-SUNSET)
 
-全文已经人工订正过，但受限于水平，经验肯定比不上工业级或实践次数更多的爱好者。欢迎提 Issue 或 PR 订正。
+全文已经人工订正过，但受限于个人水平，经验肯定比不上工业级或实践次数更多的爱好者。欢迎提 Issue 或 PR 订正。
+
+写作与页面代码整理过程中使用过 AI 助手（DeepSeek），AI 不作为作者署名。
 
 ## 授权
 
