@@ -12,12 +12,12 @@ https://xiji-sunset.github.io/kaguya-bracelet/
 
 进 [Releases](../../releases) 选版本。每个包内含 `打印文件.stl`、`源文件.blend` 和 `规格.txt`。
 
-| 包 | 版本 | 内径 | 厚度 | 宽度 | 螺旋 | 螺距 | 迭代 |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| [`bangle-movie-66.zip`](../../releases/latest/download/bangle-movie-66.zip) | 剧场版 | 66 | 2 | 7 | 377° | 12 | 2 |
-| [`bangle-artbook-66.zip`](../../releases/latest/download/bangle-artbook-66.zip) | 设定集版 | 66 | 2 | 5 | 377° | 10 | 2 |
-| [`bangle-movie-74.zip`](../../releases/latest/download/bangle-movie-74.zip) | 剧场版 | 74 | 2 | 7 | 370° | 13 | 2 |
-| [`bangle-artbook-74.zip`](../../releases/latest/download/bangle-artbook-74.zip) | 设定集版 | 74 | 2 | 5 | 377° | 9 | 2 |
+| 包 | 版本 | 内径 | 厚度 | 宽度 | 螺旋 |
+| --- | --- | --- | --- | --- | --- |
+| [`bangle-movie-66.zip`](../../releases/latest/download/bangle-movie-66.zip) | 剧场版 | 66 | 2 | 7 | 377° |
+| [`bangle-artbook-66.zip`](../../releases/latest/download/bangle-artbook-66.zip) | 设定集版 | 66 | 2 | 5 | 377° |
+| [`bangle-movie-74.zip`](../../releases/latest/download/bangle-movie-74.zip) | 剧场版 | 74 | 2 | 7 | 370° |
+| [`bangle-artbook-74.zip`](../../releases/latest/download/bangle-artbook-74.zip) | 设定集版 | 74 | 2 | 5 | 377° |
 
 长度单位 mm。66 / 74 指内径，对应外径 70 / 78 mm。校验值见 [`SHA256SUMS.txt`](../../releases/latest/download/SHA256SUMS.txt)。
 
