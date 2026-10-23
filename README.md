@@ -12,15 +12,16 @@ GitHub Pages（启用后填这里）：`https://<你的用户名>.github.io/kagu
 
 ## 下载模型
 
-- 全部版本（4 个 · STL + BLEND）：`releases/latest` 里的 `huiyeji-bangle-models.zip`
-- 单项下载：进 [Releases](../../releases) 页选需要的版本
+四个版本分开打包，进 [Releases](../../releases) 选需要的那个：
 
-| 版本 | 内径 | 带宽 | 说明 |
-| --- | --- | --- | --- |
-| 剧场版 66 | 66 mm | 7 mm | 推荐首次制作，作者自用尺寸 |
-| 设定集版 66 | 66 mm | 5 mm | 更窄更轻，线条更收 |
-| 剧场版 74 | 74 mm | 7 mm | 手更大的人 |
-| 设定集版 74 | 74 mm | 5 mm | 同上，开口更窄 |
+| 安装包 | 版本 | 内径 | 带宽 | 说明 |
+| --- | --- | --- | --- | --- |
+| [`bangle-movie-66.zip`](../../releases/latest/download/bangle-movie-66.zip) | 剧场版 | 66 mm | 7 mm | 推荐首次制作，作者自用尺寸（6 MB） |
+| [`bangle-artbook-66.zip`](../../releases/latest/download/bangle-artbook-66.zip) | 设定集版 | 66 mm | 5 mm | 更窄更轻，线条更收（8 MB） |
+| [`bangle-movie-74.zip`](../../releases/latest/download/bangle-movie-74.zip) | 剧场版 | 74 mm | 7 mm | 手更大的人，开口 5.5 mm（10 MB） |
+| [`bangle-artbook-74.zip`](../../releases/latest/download/bangle-artbook-74.zip) | 设定集版 | 74 mm | 5 mm | 开口收窄到 3.5 mm，穿脱余量更小（13 MB） |
+
+每个包内含 `打印文件.stl`、`源文件.blend` 与 `规格.txt`。校验值见 [`SHA256SUMS.txt`](../../releases/latest/download/SHA256SUMS.txt)。
 
 模型不随仓库分发（`*.stl` / `*.blend` 已在 `.gitignore` 里），原因很简单：仓库要能一秒 clone，实体文件走 Releases 更合适。
 
