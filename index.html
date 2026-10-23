@@ -117,6 +117,12 @@ button{font:inherit}
 .note.dark .list li{color:rgba(255,239,229,.8)}
 .note.dark .list li b{color:var(--cream)}
 .note.dark .list li::before{background:var(--red)}
+/* 实测经验：比普通提示条更重、更大 */
+.note.measured{padding:28px 32px;border-left-width:6px;box-shadow:0 16px 40px rgba(64,59,58,.1)}
+.note.measured .tag{font-size:10px;padding:4px 9px;letter-spacing:.16em}
+.note.measured p{font-size:16px;line-height:1.85}
+.note.dark.measured{padding:32px 36px;box-shadow:0 20px 48px rgba(46,42,41,.22)}
+.note.dark.measured h4{font-size:30px;margin:12px 0 4px}
 .steps{list-style:none;padding:0;margin:24px 0 0;counter-reset:s}
 .steps li{counter-increment:s;position:relative;padding:0 0 28px 56px;margin-left:18px;border-left:1px solid var(--line)}
 .steps li:last-child{border-left-color:transparent;padding-bottom:0}
@@ -191,6 +197,7 @@ td .mini{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.0
 .contour{position:absolute;inset:0;width:100%;height:100%;color:var(--cream);opacity:.17;pointer-events:none;transition:opacity .55s var(--ease)}
 .contour svg{display:block;width:100%;height:100%}
 .contour{z-index:0}
+.order .contour{opacity:.09}
 .order,.note.dark{position:relative}
 .order > *:not(.contour),.note.dark > *:not(.contour),.chapter-panel > *:not(.contour){position:relative;z-index:1}
 .hstep:hover .contour,.hstep:focus-visible .contour{opacity:.3}
@@ -912,14 +919,14 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         </div>
       </div>
       <div class="order rise" style="--d:1">
-        <div class="order-top"><span>ORDER TEMPLATE / 可直接复制</span><button type="button" data-copy="#orderText">复制下单模板</button></div>
+        <div class="order-top"><span>订单描述样板 / ORDER TEMPLATE</span><button type="button" data-copy="#orderText">复制这段描述</button></div>
         <pre id="orderText">你好，我想打印一件钛合金手镯，请按以下要求报价：
 
 材料：TC4（Ti-6Al-4V）
 工艺：激光粉末床熔融（SLM / LPBF），不是 FDM / 树脂
 文件：手镯-剧场版-66mm-打印文件.stl（按毫米建模）
 数量：1 件
-尺寸：内径 66 mm，壁厚 2 mm，带宽 7 mm
+尺寸：内径 66 mm，外径 70 mm，厚度 2 mm，宽度 7 mm
 要求：按原尺寸打印，不要缩放；去除支撑并清粉，保留两圈之间的间隙；关键表面尽量少留支撑点；如有条件做去应力处理
 请报：总价（含支撑去除与运费）、交期、支撑去除后的表面情况</pre>
       </div>
@@ -946,9 +953,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         <li><b>看表面</b><p>支撑点通常是小凹坑；放在平面上看是否翘曲，层纹是否均匀。轻微层纹正常，明显错层要问清原因。</p></li>
       </ol>
     </div>
-    <div class="note rise" style="--d:1;max-width:860px">
+    <div class="note measured rise" style="--d:1;max-width:860px">
       <span class="tag">实测</span>
-      <p>这只手镯的打印费是 <b>45 元</b>（含新用户优惠，含运费）。不同平台、不同批次价格会变，但"钛 + SLM"通常明显高于树脂与尼龙。</p>
+      <p>这只手镯的打印费是 <b>45 元</b>（含新用户优惠，含运费）。作者是在某立创下单打印的，所有规格都是自己选的。不同平台、不同批次价格会变，但"钛 + SLM"通常明显高于树脂与尼龙。</p>
     </div>
   </div>
 </div>
@@ -1025,7 +1032,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       
       </ul>
     </div>
-    <div class="note rise" style="--d:1;max-width:860px">
+    <div class="note measured rise" style="--d:1;max-width:860px">
       <span class="tag">实测</span>
       <p>我前期因为走了弯路，总共打磨约 <b>18 小时</b>，分了 4–5 天完成。最耗时的是内侧支撑痕，钛合金真的是太硬了。</p>
     </div>
@@ -1172,10 +1179,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       <li><b>检查与补做</b><p>在自然光下看颜色。不均匀或太浅，用 240 目砂纸轻轻磨掉氧化膜，清洗后再氧化；不要在原膜上反复叠加。</p></li>
     </ol>
 
-    <div class="note dark rise">
+    <div class="note dark measured rise">
       <span class="tag" style="color:var(--hot)">实测</span>
       <h4>作者的目标：约 36V 的冰蓝</h4>
-      <p style="color:rgba(255,239,229,.8);font-size:14px;margin:6px 0 0;max-width:80ch">4 节新 9V 空载约 38–40V，比 36V 略高，颜色会偏深一点；在阳光下看是深蓝，皮肤油脂会让它显得更浅，接近冰蓝。想要精确停在 36V，最好用可调直流电源；用电池就以万用表读数为准，不要凭"新电池"猜。</p>
+      <p style="color:rgba(255,239,229,.86);font-size:15.5px;margin:8px 0 0;max-width:78ch">4 节新 9V 空载约 38–40V，比 36V 略高，颜色会偏深一点；在阳光下看是深蓝，皮肤油脂会让它显得更浅，接近冰蓝。想要精确停在 36V，最好用可调直流电源；用电池就以万用表读数为准，不要凭"新电池"猜。</p>
     </div>
 
     <h3 class="sub">电压—颜色对照<span class="sub-en">INTERACTIVE / REFERENCE ONLY</span></h3>
