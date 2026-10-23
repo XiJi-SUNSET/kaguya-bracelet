@@ -43,6 +43,6 @@ https://xiji-sunset.github.io/kaguya-bracelet/
 
 - **说明书**（`index.html` 的代码、文字、自制插图）——[CC BY-NC-SA 4.0](LICENSE)
 - **3D 模型**（Release 里的 STL / BLEND）——[CC BY-NC 4.0](LICENSE-MODELS)
-- **动画截图与设定集素材**——版权归原作者及版权方，不在以上许可范围内，仅作个人学习对照
+- **动画截图与设定集素材**（《超时空辉夜姬》）——版权归原作者及版权方，不在以上许可范围内，仅作个人学习对照
 
 本作品是非官方同人二次创作，与版权方无关联；详细说明与署名格式见 [NOTICE](NOTICE)。
