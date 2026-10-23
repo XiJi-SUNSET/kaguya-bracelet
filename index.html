@@ -171,13 +171,14 @@ td .mini{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.0
 .hero-deck{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;margin:34px 0 0;padding-left:20px;border-left:2px solid rgba(255,239,229,.42)}
 .hero-deck p{margin:0;font-size:15px;line-height:1.8;color:rgba(255,239,229,.93);max-width:620px;text-wrap:pretty}
 .hero-meta{font-family:var(--mono);font-size:9px;line-height:1.75;letter-spacing:.12em;color:rgba(255,239,229,.68);text-align:right;flex:none}
-.hero-byline{display:flex;align-items:center;flex-wrap:wrap;gap:14px 26px;margin-top:44px;padding-top:20px;border-top:1px solid rgba(255,239,229,.3)}
-.byline-label{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:rgba(255,239,229,.62)}
+.hero-byline{display:flex;align-items:center;flex-wrap:wrap;gap:14px 24px;margin-top:46px;padding-top:22px;border-top:1px solid rgba(255,239,229,.32)}
+.byline-label{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;color:rgba(255,239,229,.66)}
 .byline-person{display:inline-flex;align-items:center;gap:10px}
-.byline-avatar{width:40px;height:40px;flex:none;object-fit:contain}
-.byline-avatar--unknown{display:grid;place-items:center;width:34px;height:34px;margin:3px;background:rgba(38,34,33,.55);border:1px solid rgba(255,239,229,.28);font-family:var(--mono);font-size:7.5px;letter-spacing:0;white-space:nowrap;color:rgba(255,239,229,.72)}
-.byline-person b{font-weight:700;font-size:14px;letter-spacing:.06em;color:var(--cream)}
-.byline-note{margin:0 0 0 auto;font-size:12.5px;line-height:1.65;color:rgba(255,239,229,.8);max-width:600px;text-wrap:pretty}
+.byline-person b{font-weight:700;font-size:21px;letter-spacing:.03em;color:var(--cream)}
+.byline-cta{margin-left:auto;font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--cream);text-decoration:none;border:1px solid rgba(255,239,229,.55);padding:10px 16px;white-space:nowrap;transition:background .25s,border-color .25s}
+.byline-cta:hover,.byline-cta:focus-visible{background:rgba(255,239,229,.14);border-color:var(--cream)}
+.byline-note{flex:0 0 100%;margin:0;font-size:14.5px;line-height:1.8;color:rgba(255,239,229,.92);text-wrap:balance}
+.byline-note b{color:var(--cream)}
 .hero-cta{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:30px;padding-left:22px}
 .cta-dl{display:inline-flex;align-items:center;gap:18px;background:var(--cream);color:var(--ink-2);text-decoration:none;padding:21px 40px 21px 22px;clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%);transition:transform .35s var(--ease),background .3s,box-shadow .35s;box-shadow:0 16px 40px rgba(58,32,26,.3)}
 .cta-dl:hover,.cta-dl:focus-visible{background:#fff;transform:translateY(-3px);box-shadow:0 22px 54px rgba(58,32,26,.36)}
@@ -381,8 +382,10 @@ input[type=range]::-moz-range-thumb{width:18px;height:18px;background:var(--ink)
   .hero-cta{padding-left:0;margin-top:24px;gap:14px}
   .cta-dl{padding:11px 18px 11px 14px}
   .cta-dl-label{font-size:14px}
-  .hero-byline{gap:8px 12px;margin-top:30px}
-  .byline-note{margin-left:0;font-size:11px}
+  .hero-byline{gap:10px 14px;margin-top:32px}
+  .byline-person b{font-size:18px}
+  .byline-cta{margin-left:0;padding:8px 12px;font-size:10px}
+  .byline-note{font-size:13.5px;line-height:1.75}
   .step-cards{gap:8px}
   .hstep{min-height:152px;padding:14px}
   .hs-num{font-size:38px;margin-top:10px}
@@ -688,7 +691,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     <div class="hero-byline rise" style="--d:8">
       <span class="byline-label">说明书作者</span>
       <span class="byline-person"><b>XiJi-SUNSET</b></span>
-      <p class="byline-note">全文已经人工订正过，写作过程中有 AI 助手协助；受限于个人水平，经验肯定比不上工业级或实践次数更多的爱好者。欢迎大家订正。</p>
+      <a class="byline-cta" href="https://github.com/XiJi-SUNSET/kaguya-bracelet/issues" target="_blank" rel="noopener">提 Issue / PR →</a>
+      <p class="byline-note">全文已经人工订正过，但受限于个人水平，经验肯定比不上工业级或实践次数更多的爱好者。<b>发现错误，欢迎直接提 Issue 订正。</b></p>
     </div>
 
     <div class="hero-foot">
